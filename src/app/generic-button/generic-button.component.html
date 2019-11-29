@@ -1,0 +1,7 @@
+<button [style.background-color]="buttonproperties.color"
+        [style.border]="buttonproperties.border"
+        [style.text-align]="buttonproperties.textalign"
+        [style.font-size]="buttonproperties.fontsize" 
+        (click)="notify.emit()">
+  {{buttonproperties.value}}
+</button>
